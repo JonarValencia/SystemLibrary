@@ -1,0 +1,19 @@
+public class Borrower {
+
+    private String borrowerName;
+    private Book borrowedBook;
+
+    public Borrower(String borrowerName) {
+        this.borrowerName = borrowerName;
+    }
+
+    public void borrow(Book book) {
+        this.borrowedBook = book;
+    }
+
+    public String identity() {
+        return "I am the Borrower class. I represent a person who borrows a book.\n";
+    }
+}
+
+
